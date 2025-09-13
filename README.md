@@ -47,7 +47,7 @@
 ---
 
 ## 📫 Conéctate conmigo  
-- 💼 [LinkedIn](www.linkedin.com/in/djohannrios) 
+- 💼 [LinkedIn] (www.linkedin.com/in/djohannrios) 
 - ✉️ Email: (riosjohann925@gmail.com)  
 
 ---
