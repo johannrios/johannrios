@@ -1,28 +1,28 @@
-# Johann Ríos | Quant Developer & Software Engineer
+# Quant Developer & Software Engineer
 
-Desarrollador enfocado en la construcción de infraestructura soberana para el análisis cuantitativo y la ejecución automatizada en mercados financieros. Mi enfoque radica en la latencia cero, la integridad de los datos de series de tiempo y la validación matemática de estrategias.
+Software Engineer focused on building sovereign infrastructure for quantitative analysis and automated execution in financial markets. My core focus lies in zero-latency systems, time-series data integrity, and the rigorous mathematical validation of trading strategies.
 
-##  Core Stack & Architecture
+## Core Stack & Architecture
 
-Mi infraestructura de desarrollo y producción se basa en arquitecturas modularizadas, priorizando el control absoluto del entorno y el procesamiento determinista:
+My development and production infrastructure relies on modular architectures, prioritizing absolute environment control and deterministic processing:
 
-*   **Data Ingestion & Storage:** Implementación de pipelines asíncronos mediante WebSockets para captura de ticks en tiempo real (L1/L2 Order Book data), persistidos en bases de datos orientadas a series de tiempo (**TimescaleDB / QuestDB**).
-*   **Execution Logic & Modeling:** Desarrollo de motores de riesgo y backtesting usando **Python**, y **C**.
-*   **Agentic Engineering & AI:** Orquestación de modelos de lenguaje locales (Open Weights / DeepSeek) para análisis de sentimiento, validación de código y agentes de investigación.
-*   **Infrastructure Ops:** Despliegues *containerizados* (**Docker**), gestión de entornos locales en **Linux (Ubuntu)**, automatización de terminal (TMUX) y flujos CI/CD rigurosos.
+*   **Data Ingestion & Storage:** Implementation of asynchronous pipelines via WebSockets for real-time tick capture (L1/L2 Order Book data), persisted in high-performance time-series databases (**TimescaleDB / QuestDB**).
+*   **Execution Logic & Modeling:** Development of quantitative models, risk engines, and backtesting frameworks using **Python**, **Java**, and **C**.
+*   **Agentic Engineering & AI:** Orchestration of local large language models (Open Weights / DeepSeek) for sentiment analysis, codebase validation, and autonomous research agents.
+*   **Infrastructure Ops:** Containerized deployments (**Docker**), sovereign local environment management in **Linux (Ubuntu)**, terminal automation (TMUX), and strict CI/CD pipelines.
 
-##  Filosofía Cuantitativa
+##  Quantitative Philosophy
 
-En el diseño de sistemas de trading, desecho la heurística visual en favor de la robustez estadística. Todo modelo debe someterse a la maximización del rendimiento ajustado al riesgo, evaluando constantemente el **Ratio de Sharpe**:
+In algorithmic trading system design, I discard visual heuristics in favor of statistical robustness. Every model must be optimized for risk-adjusted returns, constantly evaluating the **Sharpe Ratio**:
 
 $$S_p = \frac{E[R_p - R_f]}{\sigma_p}$$
 
-Donde asumo que la ventaja matemática (*Edge*) solo es explotable cuando el sistema está diseñado para operar fuera del ruido blanco ($\epsilon_t$) del mercado, validado mediante *Walk-Forward Optimization* y *Combinatorial Purged Cross-Validation*.
+I operate under the premise that a mathematical edge is only exploitable when the system is designed to perform outside the market's white noise ($\epsilon_t$). This is validated strictly through Walk-Forward Optimization and Combinatorial Purged Cross-Validation.
 
-##  Proyectos Actuales
+##  Current Projects
 
-*   **Algorithmic Trading Engine:** Motor de ejecución concurrente que desacopla la ingestión de datos, la generación de señales algorítmicas y el control de riesgo dinámico.
-*   **Harness Engineering Platform:** Entorno de pruebas automatizado para validar la resistencia de estrategias operativas ante *Drawdowns* históricos antes de tocar producción.
+*   **Algorithmic Trading Engine:** Concurrent execution engine that decouples L2 data ingestion, algorithmic signal generation, and dynamic risk management.
+*   **Harness Engineering Platform:** Automated testing environment built to validate the resilience of operational strategies against historical drawdowns before they ever touch a live production environment.
 
 ---
 
