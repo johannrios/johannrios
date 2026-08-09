@@ -4,7 +4,7 @@ I am dedicated to understanding the architecture behind algorithmic trading syst
 
 ## Current Areas of Specialization
 
-- **Data Ingestion Pipelines: Capturing and storing price time-series in an organized, queryable manner.
-- **Backtesting: Testing trading strategies against historical data and evaluating their performance.
-- **Python: For data analysis and financial modeling.
-- **Docker & Linux: Setting up reproducible development and production environments.
+- Data Ingestion Pipelines: Capturing and storing price time-series in an organized, queryable manner.
+- Backtesting: Testing trading strategies against historical data and evaluating their performance.
+- Python: For data analysis and financial modeling.
+- Docker & Linux: Setting up reproducible development and production environments.
